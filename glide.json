@@ -1,46 +1,16 @@
 {
-  "name": "Hell Yes Code",
-  "description": "The yes-codest of columns.",
+  "name": "Date Converter",
+  "description": "Take a date field and parse out what you need",
   "author": "Mark Probst <mark@glideapps.com>",
   "params": [
     {
-      "name": "code",
-      "displayName": "Code",
+      "name": "date",
+      "displayName": "Date Field",
       "type": "string"
     },
     {
-      "name": "p1",
-      "displayName": "p1",
-      "type": "primitive"
-    },
-    {
-      "name": "p2",
-      "displayName": "p2",
-      "type": "primitive"
-    },
-    {
-      "name": "p3",
-      "displayName": "p3",
-      "type": "primitive"
-    },
-    {
-      "name": "p4",
-      "displayName": "p4",
-      "type": "primitive"
-    },
-    {
-      "name": "p5",
-      "displayName": "p5",
-      "type": "primitive"
-    },
-    {
-      "name": "p6",
-      "displayName": "p6",
-      "type": "primitive"
-    },
-    {
-      "name": "p7",
-      "displayName": "p7",
+      "name": "convert",
+      "displayName": "Convert to: 'HOUR' / 'DAY_OF_WEEK' / 'DAY' / 'MONTH' / 'YEAR'",
       "type": "primitive"
     }
   ],
