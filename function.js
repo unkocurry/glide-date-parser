@@ -13,7 +13,7 @@ window.function = function (str, type) {
     final = peices[0].split(' ')[1]
   } else if (type === 'MONTH') {
     final = peices[0].split(' ')[0]
-  } } else if (type === 'YEAR') {
+  } else if (type === 'YEAR') {
     final = peices[1].trim() 
   }
 
