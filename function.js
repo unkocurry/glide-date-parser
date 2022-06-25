@@ -1,21 +1,50 @@
-// The function here takes the parameters that you
-// have declared in the `glide.json` file, in the
-// same order.
-window.function = function (str, type) { 
-  // 2018-01-01T16:55:30.974Z
-  // January 1, 2017, 3:24PM
-  let peices = str.split(',')
-  let final = 'DEFAULT';
-  if (type === 'HOUR') {
-    // Later
-    final = 'not implemented yet'
-  } else if (type === 'DAY') {
-    final = peices[0].split(' ')[1]
-  } else if (type === 'MONTH') {
-    final = peices[0].split(' ')[0]
-  } else if (type === 'YEAR') {
-    final = peices[1].trim() 
+{
+  "name": "Hell Yes Code",
+  "description": "The yes-codest of columns.",
+  "author": "Mark Probst <mark@glideapps.com>",
+  "params": [
+    {
+      "name": "code",
+      "displayName": "Code",
+      "type": "string"
+    },
+    {
+      "name": "p1",
+      "displayName": "p1",
+      "type": "primitive"
+    },
+    {
+      "name": "p2",
+      "displayName": "p2",
+      "type": "primitive"
+    },
+    {
+      "name": "p3",
+      "displayName": "p3",
+      "type": "primitive"
+    },
+    {
+      "name": "p4",
+      "displayName": "p4",
+      "type": "primitive"
+    },
+    {
+      "name": "p5",
+      "displayName": "p5",
+      "type": "primitive"
+    },
+    {
+      "name": "p6",
+      "displayName": "p6",
+      "type": "primitive"
+    },
+    {
+      "name": "p7",
+      "displayName": "p7",
+      "type": "primitive"
+    }
+  ],
+  "result": {
+    "type": "primitive"
   }
-
-  return final
 }
