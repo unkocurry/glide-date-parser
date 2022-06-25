@@ -11,8 +11,8 @@
         "type": "string"
       },
       {
-        "name": "string",
-        "displayName": "Type: 'HOUR' (1) / 'DAY' (2) / 'MONTH' (3) / 'YEAR' (4)",
+        "name": "type",
+        "displayName": "'HOUR' (1) / 'DAY' (2) / 'MONTH' (3) / 'YEAR' (4)",
         "type": "number"
       }
     ],
