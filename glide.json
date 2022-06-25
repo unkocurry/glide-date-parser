@@ -13,7 +13,7 @@
       {
         "name": "type",
         "displayName": "'HOUR' / 'DAY' / 'MONTH' / 'YEAR'",
-        "type": "number"
+        "type": "string"
       }
     ],
     "result": {
