@@ -12,7 +12,7 @@
       },
       {
         "name": "type",
-        "displayName": "'HOUR' (1) / 'DAY' (2) / 'MONTH' (3) / 'YEAR' (4)",
+        "displayName": "'HOUR' / 'DAY' / 'MONTH' / 'YEAR'",
         "type": "number"
       }
     ],
