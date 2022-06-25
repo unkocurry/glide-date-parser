@@ -10,7 +10,7 @@
     },
     {
       "name": "convert",
-      "displayName": "Convert to: 'HOUR' / 'DAY_OF_WEEK' / 'DAY' / 'MONTH' / 'YEAR'",
+      "displayName": "Convert to: 'HOUR' / 'DAY_OF_WEEK' / 'DAY_OF_MONTH' / 'MONTH' / 'YEAR'",
       "type": "primitive"
     }
   ],
