@@ -1,12 +1,18 @@
-const functions = new Map();
-
-window.function = function (code, ...params) {
-  code = code.value;
-  if (code === undefined) return undefined;
-
-  const functionCode = `async (p1,p2,p3,p4,p5,p6,p7)=>{ ${code} }`;
-  const fn = eval(functionCode);
-  functions.set(code, fn);
-
-  return fn(...params.map(p => p.value));
+window.function = function (dateStr, type) {
+  const date = new Date(dateStr)
+  let final = 'error'
+  
+  if (type === 'HOUR') {
+    final = date.getHour()  
+  } else if (type === 'DAY_OF_WEEK') {
+    final = date.getDay()
+  } else if (type === 'DAY_OF_MONTH') {
+    final = date.getDate()
+  } else if (type === 'MONTH') {
+    final = date.getMonth()
+  } else if (type === 'YEAR') {
+    final = date.getFullYear()
+  }
+  
+  return final
 }
