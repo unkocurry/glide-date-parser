@@ -6,15 +6,15 @@ window.function = function (str, type) {
   // January 1, 2017, 3:24PM
   let peices = str.split(',')
   let final = 'DEFAULT';
-  if (type === 1) {
+  if (type === 'HOUR') {
     // Later
     final = 'not implemented yet'
-  } else if (type === 2) {
-    final = +peices[0].split(' ')[1]
-  } else if (type === 3) {
+  } else if (type === 'DAY') {
+    final = peices[0].split(' ')[1]
+  } else if (type === 'MONTH') {
     final = peices[0].split(' ')[0]
-  } } else if (type === 4) {
-    final = +peices[1].trim() 
+  } } else if (type === 'YEAR') {
+    final = peices[1].trim() 
   }
 
   return final
